@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/sytle.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <h1>CrystalsCollector</h1>
+
+    <div id="content">
+        <p>
+            You will be given a random number at the star of the game.
+        </p>
+        <p>
+            There are four crystals below. By clicking on a crystal 
+            you will add a specific amount of points to your total score.
+        </p>
+        <p>
+            You win the game by matching your total score to ranom number, you
+            lose the game if your total score goes above the random number.
+        </p>
+        <p>
+            The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+            Each time when the game starts, the game will change the values of each
+            crystal.
+        </p>
+    </div>
+
+    <div id="player"></div>
+
+    <div id="stats"></div>
+
+    <div class="gems">
+        <img src="assets/images/red.PNG" class="images" id="red" alt="Red Gem" />
+        <img src="assets/images/blue.PNG" class="images" id="blue" alt="Blue Gem" />
+        <img src="assets/images/yellow.PNG" class="images" id="yellow" alt="Yellow Gem" />
+        <img src="assets/images/green.PNG" class="images" id="green" alt="Green Gem"/>
+    </div>
+
+    <div id="score">Your total score is: </div>
+
+    <div id="total"></div>
+    
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
