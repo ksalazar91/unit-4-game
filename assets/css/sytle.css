@@ -81,6 +81,33 @@ p{
     font-size: 60px;
 }
 
+@media only screen and (max-width: 1048px) {
+    
+    #player{
+        margin-top:610px;
+    }
+    #stats{
+        margin-top: 610px;
+        margin-left: 15.5%;
+     
+    }
+
+    #score {
+        margin-top: 900px;
+        
+    }
+
+    #total{
+      
+        margin-top: 930px;
+        
+    }
+    .gems{
+        margin-top: 760px;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
     #content{
         width: 100%;
@@ -92,7 +119,7 @@ p{
         margin-left: 50%;
         width: 45%;
     }
-
+    
     #score {
         margin-top: 910px;
         width: 50%;
