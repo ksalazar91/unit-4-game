@@ -81,3 +81,27 @@ p{
     font-size: 60px;
 }
 
+@media only screen and (max-width: 500px) {
+    #content{
+        width: 100%;
+    }
+    #player{
+        width: 48%;
+    }
+    #stats{
+        margin-left: 50%;
+        width: 45%;
+    }
+
+    #score {
+        margin-top: 910px;
+        width: 50%;
+    }
+
+    #total{
+      
+        margin-top: 950px;
+        width: 50%;
+      
+    }
+}
