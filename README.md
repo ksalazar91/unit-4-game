@@ -1,6 +1,8 @@
 # unit-4-game
 "Crystal game"
 
+ https://ksalazar91.github.io/unit-4-game/
+
     You will be given a random number at the star of the game.
 
     There are four crystals below. By clicking on a crystal 
